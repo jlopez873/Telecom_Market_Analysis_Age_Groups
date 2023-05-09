@@ -1,0 +1,55 @@
+Getting Started with Telecom Market Analysis
+============================================
+
+This guide will help you set up the Telecom Market Analysis project on your local machine. Please follow the steps below to get started.
+
+Prerequisites:
+--------------
+1. Python 3.x installed on your system (https://www.python.org/downloads/)
+2. PostgreSQL installed on your system (https://www.postgresql.org/download/)
+
+Step 1: Clone the Repository
+-----------------------------
+Clone the repository to your local machine using the following command:
+
+git clone https://github.com/jlopez873/telecom-market-analysis-age-groups.git
+cd telecom-market-analysis-age-groups
+
+Step 2: Set up a Virtual Environment (Optional)
+-----------------------------------------------
+It's recommended to create a virtual environment to manage the project's dependencies:
+
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+
+Step 3: Install Dependencies
+----------------------------
+Install the required Python packages using the following command:
+
+pip install -r requirements.txt
+
+Step 4: Set up the PostgreSQL Database
+--------------------------------------
+Create a PostgreSQL database and import the provided SQL scripts to create and populate the tables:
+
+1. Launch the PostgreSQL command-line interface (psql) or a GUI tool like pgAdmin.
+2. Create a new database and connect to it.
+3. Import the SQL scripts located in the 'sql' folder.
+
+Step 5: Update Database Connection Information
+----------------------------------------------
+Update the database connection information (host, port, database name, user, and password) in the Python scripts and Jupyter Notebooks as needed.
+
+Step 6: Run the Jupyter Notebooks
+----------------------------------
+Start the Jupyter Notebook server by running the following command:
+
+jupyter notebook
+
+Navigate to the 'notebooks' folder and open the desired notebook. Run the cells to perform the analysis and view the results.
+
+Step 7: Explore the Results
+---------------------------
+The 'results' folder contains the output files and results obtained from the analysis. You can explore these files to gain insights into the telecom market and customer preferences.
+
+If you have any questions or need assistance, please consult the README.md file or contact the project author.
